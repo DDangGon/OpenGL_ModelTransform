@@ -43,6 +43,7 @@ int main(int argc, char *argv[])
     
     glClearColor(0.0,0.0,0.0,0.0);    /* set background to black */
     gluOrtho2D(0,400,0,500);        /* how object is mapped to window */
+    
     glutDisplayFunc(displayCB);        /* set window's display callback */
     glutKeyboardFunc(keyCB);        /* set window's key callback */
     

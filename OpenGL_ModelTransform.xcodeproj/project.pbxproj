@@ -10,6 +10,7 @@
 		F310996222269F8F00CF46C3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F310996122269F8F00CF46C3 /* main.cpp */; };
 		F310996A22269FDF00CF46C3 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F310996922269FDF00CF46C3 /* GLUT.framework */; };
 		F310996C22269FE500CF46C3 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F310996B22269FE500CF46C3 /* OpenGL.framework */; };
+		F310996F2226AA9000CF46C3 /* Shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F310996D2226AA9000CF46C3 /* Shader.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,8 @@
 		F310996122269F8F00CF46C3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F310996922269FDF00CF46C3 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 		F310996B22269FE500CF46C3 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		F310996D2226AA9000CF46C3 /* Shader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Shader.cpp; sourceTree = "<group>"; };
+		F310996E2226AA9000CF46C3 /* Shader.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Shader.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,8 @@
 			isa = PBXGroup;
 			children = (
 				F310996122269F8F00CF46C3 /* main.cpp */,
+				F310996D2226AA9000CF46C3 /* Shader.cpp */,
+				F310996E2226AA9000CF46C3 /* Shader.hpp */,
 			);
 			path = OpenGL_ModelTransform;
 			sourceTree = "<group>";
@@ -134,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F310996F2226AA9000CF46C3 /* Shader.cpp in Sources */,
 				F310996222269F8F00CF46C3 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
